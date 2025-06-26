@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #935e19;
+    padding: 0;
+    margin: 0;
+    
+}
+button{
+    width: 70px;
+    height: 50px;
+    background: rgb(245, 230, 182);
+    color: #291e1e;
+    border-radius: 10px;
+}
+header {
+    background-color: #935e19;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    background-color: #935e19;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: center;
+}
+
+header .logo img {
+    height: 45px;
+}
+
+#searchInput {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.logout-btn {
+    background-color: #543013;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.logout-btn:hover {
+    background-color: #5d3c12;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    background-color: #935e19;
+    color: #ffffff;
+    text-align: center;
+}
+img{
+    max-width: 300px;
+    max-height: 900px;
+}
+.book-item {
+    background-color: rgb(245, 230, 182);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;   
+}
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.book-item p {
+    color: #1c1c1c;
+    font-size: 20px;
+}
+.book-item h2 {
+    color: #b15702;
+}
+
+.book-item a {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 10px 15px;
+    background-color: #443319;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.book-item a:hover {
+    background-color: #291c07;
+}
+
+footer {
+    background-color: #4b3110;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
